@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2f3136;
+}
+
+.container {
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15rem;
+    background: whitesmoke;
+    font-size: xx-large;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 7rem;
+}
+
+.title {
+    top: 20px;
+}
